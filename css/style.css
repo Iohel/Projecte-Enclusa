@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    height: 3em;
+    width: auto;
+    background-color: red;
+}
+section{
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+
+}
+span{
+    background-color: black;
+    width: 100%;
+    color: aliceblue;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid blue;
+}
+div{
+    border: 1px solid black
+}
