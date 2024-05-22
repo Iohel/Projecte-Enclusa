@@ -31,42 +31,39 @@
         border: 1px solid black;
     
     }
-    article{
-        border: 1px solid black;
-        border-radius: 10px;
-        height: auto;
-        padding: 5px;
-        background-color: white;
-        margin: 10px;
-        display: flex;
-        align-items: flex-start;
-        justify-content: space-between;
-        
-        
-    }
-    img.portada{
-        margin: 5px;
-        object-fit: cover;
-        width: 100%;
-        max-width: 200px;
-        height: auto;
-        border: 1px solid blue;
-    }
-    div{
-        margin: 5px;
-        height: 100%;
-        width: 75%;
-        
-        display: flex;
-        text-align: justify;
-        flex-direction: column;
-        justify-content: baseline;
-        
-    }
     img.logo{
         width: 100%;
         max-width: 200px;
         height: auto;
+    }
+    article{
+        display: flex;
+        
+    }
+    table{
+        margin: 10px;
+        width: 100%;
+        background-color: #F0D22D;
+    }
+    th{
+        width: 100px;
+        border: solid black 1px;
+        border-radius: 5px;
+        background-color: white;
+    }
+    table{
+        border: solid black 5px;
+        border-radius: 5px;
+        
+    }
+    
+    div{
+        border: solid black 1px;
+        border-radius: 10px;
+        height: 75px;
+        margin: 5px;
+        padding: 5px;
+        background-color: white;
     }
 }
 @media screen and (min-width: 800px) {
@@ -101,41 +98,39 @@
         border: 1px solid black;
     
     }
-    article{
-        border: 1px solid black;
-        border-radius: 10px;
-        height: auto;
-        padding: 5px;
-        background-color: white;
-        margin: 10px;
-        display: flex;
-        align-items: flex-start;
-        justify-content: space-between;
-        
-        
-    }
-    img.portada{
-        margin: 5px;
-        object-fit: cover;
-        width: 100%;
-        max-width: 300px;
-        height: auto;
-        border: 1px solid blue;
-    }
-    div{
-        margin: 5px;
-        height: 100%;
-        width: 75%;
-        font-size:x-large;
-        display: flex;
-        text-align: justify;
-        flex-direction: column;
-        justify-content: baseline;
-        
-    }
     img.logo{
         max-width: 500px;
         width: 100%;
         height: auto;
+    }
+    article{
+        display: flex;
+
+    }
+    table{
+        margin: 10px;
+        width: 100%;
+        background-color: #F0D22D;
+    }
+    th{
+        width: 100px;
+        border: solid black 1px;
+        border-radius: 10px;
+        background-color: white;
+    }
+    table{
+        border: solid black 5px;
+        border-radius: 10px;
+        
+        
+    }
+    
+    div{
+        border: solid black 1px;
+        border-radius: 10px;
+        height: 100px;
+        
+        padding: 5px;
+        background-color: white;
     }
 }
